@@ -6,6 +6,11 @@ Tru <tru@pasteur.fr>
 - initial docker image project https://github.com/truatpasteurdotfr/docker-c7-ci
 - adding support for singularity format to be used directly
 
+## Caveat
+- playground, use at your own risk!
+- `:main` tagged docker image
+- `:latest` tagged singularity image
+
 ## Usage
 - Docker
 ```
