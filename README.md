@@ -12,12 +12,12 @@ Tru <tru@pasteur.fr>
 - `:latest` tagged singularity image
 
 ## Usage
-- Docker
+- Docker [![Docker build](https://github.com/truatpasteurdotfr/singularity-docker-centos7-ci/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/truatpasteurdotfr/singularity-docker-centos7-ci/actions/workflows/docker-publish.yml)
 ```
 docker pull ghcr.io/truatpasteurdotfr/singularity-docker-centos7-ci:main
 ```
 
-- Singularity
+- Singularity [![Singularity build](https://github.com/truatpasteurdotfr/singularity-docker-centos7-ci/actions/workflows/singularity-publish.yml/badge.svg)](https://github.com/truatpasteurdotfr/singularity-docker-centos7-ci/actions/workflows/singularity-publish.yml)
 ```
 singularity run oras://ghcr.io/truatpasteurdotfr/singularity-docker-centos7-ci:latest
 ```
