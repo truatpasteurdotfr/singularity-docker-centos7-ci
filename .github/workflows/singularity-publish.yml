@@ -6,8 +6,9 @@ name: Singularity build
 # documentation.
 
 on:
-  schedule:
-    - cron: '31 0 * * *'
+  workflow_dispatch:
+#  schedule:
+#    - cron: '31 0 * * *'
   push:
     branches: [ main ]
     # Publish semver tags as releases.
@@ -27,7 +28,7 @@ jobs:
 
     runs-on: ubuntu-latest
     container:
-      image: quay.io/singularity/singularity:v3.8.3
+      image: quay.io/singularity/singularity:v3.8.4
       options: --privileged
     permissions:
       contents: read
